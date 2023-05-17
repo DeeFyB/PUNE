@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: black !important;
+}
+
+.backimg {
+    background-image: url(../pics/Background.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open SansB;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: DM Sans;
+    src: url(../fonts/DMSans-Regular.ttf);
+}
+
+
+
+/* NavBar */
+
+.brndpune {
+    text-decoration: none !important;
+    color: #fff !important;
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+}
+
+.na-vi {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+}
+
+.srch-1 {
+    background-image: url(../pics/cart.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-color: transparent !important;
+    padding-left: 40px !important;
+    border: none !important;
+    outline: none !important;
+    height: 30px !important;
+    caret-color: #fff !important;
+}
+
+.srch-1::placeholder {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    color: #f2f2f2 !important;
+}
+
+
+
+/* Content */
+
+
+
+.p-follow {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    transform: rotate(90deg);
+    margin: 0 !important;
+    margin-top: 100px !important;
+    left: 79px !important;
+    top: 65px !important;
+}
+
+.p-queen {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #FFC178 !important;
+    margin: 0 !important;
+}
+
+.h1-discover {
+    font-family: 'Open SansB' !important;
+    font-style: normal !important;
+    font-weight: bolder !important;
+    font-size: 96px !important;
+    color: #fff !important;
+    margin: 0 !important;
+}
+
+.h1-rapchik {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 96px !important;
+    color: #fff !important;
+    margin: 0 !important;
+}
+
+.a-scroll {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    margin-top: 105px !important;
+    padding-bottom: 503px !important;
+}
+
+.backimg2 {
+    background-image: url(../pics/image\ 1.png);
+    background-repeat: no-repeat !important;
+}
+
+.p-king {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #FFC178 !important;
+    margin: 0 !important;
+}
+
+.h3-fort {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 64px !important;
+    color: #fff !important;
+}
+
+.p-rajgad {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+}
+
+.a-readmore {
+    font-family: 'Open Sans'!important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    color: #FFC178 !important;
+}
+
+.p-bromo {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #FBD784 !important;
+    text-align: center !important;
+}
+
+.h1-shreemant {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 64px !important;
+    color: #fff !important;
+}
+
+.p-halwai {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+}
+
+.p-roadpune {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #FBD784 !important;
+}
+
+.h2-our {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 64px !important;
+    color: #fff !important;
+}
+
+.p-puneis {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+}
+
+.backimg3 {
+    background-image: url(../pics/01.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: right !important;
+}
+
+.h3-pune1 {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    color: #fff !important;
+}
+
+.p-explore {
+    font-family: 'DM Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+    margin: 0 !important;
+    margin-right: 55.53px !important;
+}
+
+.getstbutt {
+    width: 239.35px !important;
+    height: 69.14px !important;
+    border: none !important;
+    border-radius: 8px !important;
+    background-color: #FFA343 !important;
+    font-family: 'DM Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    transition: all .2s !important;
+}
+
+.getstbutt:active {
+    background-color: #fab871 !important;
+}
+
+
+
+/* Footer */
+
+
+
+.h2-foot1 {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    color: #fff !important;
+}
+
+.inpbuttdiv {
+    width: 399.6px !important;
+    height: 69.14px !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1.38px solid #fff !important;
+}
+
+.email-foot1 {
+    width: 330.46px !important;
+    height: 69.14px !important;
+    border: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+}
+
+.email-foot1::placeholder {
+    font-family: 'DM Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    padding-left: 10px !important;
+}
+
+.subbutt1 {
+    width: 69.14px !important;
+    height: 69.14px !important;
+    background-color: #FFA343 !important;
+    border: none !important;
+    border-radius: 8px 8px 0px 0px !important;
+    transition: all .2s !important;
+}
+
+.subbutt1:active {
+    background-color: #fab871 !important;
+}
+
+.p-aboutfoot {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    color: #FFD1A0 !important;
+}
+
+.a-linkfoot {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.a-terms {
+    font-family: 'DM Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.p-copyright {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #808080 !important;
+    text-align: center !important;
+}
